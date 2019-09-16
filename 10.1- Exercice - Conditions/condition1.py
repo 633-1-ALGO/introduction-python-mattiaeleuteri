@@ -5,7 +5,9 @@
 c = 42
 d = -1
 
-if c and d > 0 or c and d < 0:
-    print("le produit est positif")
-else:
+if c == 0 or d == 0:
+    print("le produit est nul")
+elif c > 0 > d or d > 0 > c:
     print("le produit est négatif")
+else:
+    print("le produit est positif")
