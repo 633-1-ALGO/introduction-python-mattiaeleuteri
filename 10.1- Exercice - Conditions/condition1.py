@@ -3,4 +3,9 @@
 # Résultat attendu : Un message affichant "Produit positif" ou "Produit négatif" ou "Produit nul".
 # Indications :  Vous pouvez changer les valeurs des variables pour vos tests.
 c = 42
-d = 31
+d = -1
+
+if c and d > 0 or c and d < 0:
+    print("le produit est positif")
+else:
+    print("le produit est négatif")
