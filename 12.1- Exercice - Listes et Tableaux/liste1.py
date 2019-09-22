@@ -6,3 +6,12 @@
 # Indication :   L'alignement rectiligne n'est pas une contrainte, tant que la table est visible ligne par ligne c'est ok.
 #               Si vous êtes perfectionnistes faites vous plaisir.
 liste = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+tableau = []
+
+
+print(" \t1\t2\t3\t4\t5\t6\t7\t8\t9\t10")
+for i in liste:
+    for j in liste:
+        print(j, "\t", i*j, "\t")
+

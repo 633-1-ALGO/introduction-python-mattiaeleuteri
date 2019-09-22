@@ -2,3 +2,11 @@
 # Données : un tableau A de n nombre réels
 # Résultat attendu : Moyenne des nombres réels du tableau A
 A = [1, 5, 15, 25, 10, 55, 50, 35]
+moyenne = 0
+
+for no in A:
+    moyenne += no
+
+moyenne = moyenne/len(A)
+
+print("moyenne de A :", moyenne)
